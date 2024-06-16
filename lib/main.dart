@@ -4,15 +4,17 @@ import 'package:bitcoin_app/constant.dart';
 import 'package:bitcoin_app/widgets/bottom_bar.dart';
 
 void main() {
-  SystemChrome.setPreferredOrientations(
+ /* SystemChrome.setPreferredOrientations(
     [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown],
   );
 
+  */
+
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(
-      statusBarColor: Colors.transparent,
-      statusBarIconBrightness: Brightness.dark,
-      statusBarBrightness: Brightness.dark,
+      statusBarColor: Color(0xff3e3950),
+      statusBarIconBrightness: Brightness.light,
+      statusBarBrightness: Brightness.light,
     ),
   );
 

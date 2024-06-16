@@ -23,7 +23,7 @@ class CustomButton extends StatelessWidget {
         icon: SvgPicture.asset(svgPath),
         onPressed: () {},
         style: TextButton.styleFrom(
-          primary: kTextColor,
+       //   primary: kTextColor,
           backgroundColor: kSecondaryColor,
           textStyle: kSFUI16,
           shape: const RoundedRectangleBorder(

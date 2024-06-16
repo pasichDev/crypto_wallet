@@ -47,7 +47,7 @@ class _BottomBarState extends State<BottomBar> {
                 child: const Text('Pay Now'),
                 onPressed: () {},
                 style: TextButton.styleFrom(
-                  primary: kTextColor,
+             //     primary: kTextColor,
                   backgroundColor: kSecondaryColor,
                   textStyle: kSFUI16,
                   shape: const RoundedRectangleBorder(

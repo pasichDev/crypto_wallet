@@ -23,8 +23,8 @@ class _ChartState extends State<Chart> {
           duration: const Duration(milliseconds: 1300),
           child: LineChart(
             mainData(),
-            swapAnimationDuration: const Duration(milliseconds: 800),
-            swapAnimationCurve: Curves.linear,
+          //  swapAnimationDuration: const Duration(milliseconds: 800),
+         //   swapAnimationCurve: Curves.linear,
           ),
         ),
       ),
@@ -51,9 +51,9 @@ class _ChartState extends State<Chart> {
           drawVerticalLine: false),
       titlesData: FlTitlesData(
         show: true,
-        rightTitles: SideTitles(showTitles: false),
-        topTitles: SideTitles(showTitles: false),
-        bottomTitles: SideTitles(
+     //   rightTitles: SideTitles(showTitles: false),
+     //   topTitles: SideTitles(showTitles: false),
+    /*    bottomTitles:    SideTitles(
           showTitles: true,
           reservedSize: 22,
           interval: 1,
@@ -79,8 +79,8 @@ class _ChartState extends State<Chart> {
             return '';
           },
           margin: 10,
-        ),
-        leftTitles: SideTitles(
+        ) , */
+    /*    leftTitles:   SideTitles(
           showTitles: true,
           interval: 1,
           getTextStyles: (context, value) => const TextStyle(
@@ -101,7 +101,7 @@ class _ChartState extends State<Chart> {
           },
           reservedSize: 25,
           margin: 12,
-        ),
+        ), */
       ),
       minX: 0,
       maxX: 11,
@@ -119,19 +119,19 @@ class _ChartState extends State<Chart> {
             const FlSpot(11, 5),
           ],
           isCurved: true,
-          colors: gradientColors,
+        //  colors: gradientColors,
           barWidth: 2,
           dotData: FlDotData(
             show: false,
           ),
           belowBarData: BarAreaData(
             show: true,
-            gradientFrom: const Offset(0, 0),
-            gradientTo: const Offset(0, 1),
-            colors: [
-              kGradientColorTwo.withOpacity(0.2),
-              kGradientColorTwo.withOpacity(0.1),
-            ],
+         //   gradientFrom: const Offset(0, 0),
+        //    gradientTo: const Offset(0, 1),
+        //    colors: [
+        //      kGradientColorTwo.withOpacity(0.2),
+        //      kGradientColorTwo.withOpacity(0.1),
+        //    ],
           ),
         ),
       ],
